@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93121B6A21DCEE830088B034 /* TestDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93121B6921DCEE830088B034 /* TestDataFetcher.swift */; };
+		934EBFC221EA17BE00C1D80C /* regex.json in Resources */ = {isa = PBXBuildFile; fileRef = 934EBFC121EA17BE00C1D80C /* regex.json */; };
+		93CD79DD21D9EBE10090793F /* VSRegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD79DC21D9EBE10090793F /* VSRegexTest.swift */; };
+		93CD79E421D9EC320090793F /* VSRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD79E321D9EC320090793F /* VSRegex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93121B6921DCEE830088B034 /* TestDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataFetcher.swift; sourceTree = "<group>"; };
+		934EBFC121EA17BE00C1D80C /* regex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = regex.json; sourceTree = "<group>"; };
+		93CD79D921D9EBE10090793F /* VSRegexTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSRegexTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CD79DC21D9EBE10090793F /* VSRegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSRegexTest.swift; sourceTree = "<group>"; };
+		93CD79DE21D9EBE10090793F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CD79E321D9EC320090793F /* VSRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSRegex.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93CD79D621D9EBE10090793F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934EBFC021EA17A600C1D80C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				934EBFC121EA17BE00C1D80C /* regex.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93CD79CE21D9EBAD0090793F = {
+			isa = PBXGroup;
+			children = (
+				93CD79E221D9EC240090793F /* Sources */,
+				93CD79DB21D9EBE10090793F /* VSRegexTest */,
+				93CD79DA21D9EBE10090793F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93CD79DA21D9EBE10090793F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93CD79D921D9EBE10090793F /* VSRegexTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93CD79DB21D9EBE10090793F /* VSRegexTest */ = {
+			isa = PBXGroup;
+			children = (
+				93CD79DC21D9EBE10090793F /* VSRegexTest.swift */,
+				93121B6921DCEE830088B034 /* TestDataFetcher.swift */,
+				93CD79DE21D9EBE10090793F /* Info.plist */,
+			);
+			path = VSRegexTest;
+			sourceTree = "<group>";
+		};
+		93CD79E221D9EC240090793F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				93CD79E321D9EC320090793F /* VSRegex.swift */,
+				934EBFC021EA17A600C1D80C /* Resources */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93CD79D821D9EBE10090793F /* VSRegexTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CD79DF21D9EBE10090793F /* Build configuration list for PBXNativeTarget "VSRegexTest" */;
+			buildPhases = (
+				93CD79D521D9EBE10090793F /* Sources */,
+				93CD79D621D9EBE10090793F /* Frameworks */,
+				93CD79D721D9EBE10090793F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSRegexTest;
+			productName = VSRegexTest;
+			productReference = 93CD79D921D9EBE10090793F /* VSRegexTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93CD79CF21D9EBAD0090793F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					93CD79D821D9EBE10090793F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 93CD79D221D9EBAD0090793F /* Build configuration list for PBXProject "VSRegex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93CD79CE21D9EBAD0090793F;
+			productRefGroup = 93CD79DA21D9EBE10090793F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93CD79D821D9EBE10090793F /* VSRegexTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CD79D721D9EBE10090793F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934EBFC221EA17BE00C1D80C /* regex.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93CD79D521D9EBE10090793F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CD79E421D9EC320090793F /* VSRegex.swift in Sources */,
+				93CD79DD21D9EBE10090793F /* VSRegexTest.swift in Sources */,
+				93121B6A21DCEE830088B034 /* TestDataFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93CD79D321D9EBAD0090793F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		93CD79D421D9EBAD0090793F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		93CD79E021D9EBE10090793F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"VSREGEX_TEST=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = VSRegexTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincentsit.VSRegexTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG VSREGEX_TEST";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93CD79E121D9EBE10090793F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = VSRegexTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincentsit.VSRegexTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93CD79D221D9EBAD0090793F /* Build configuration list for PBXProject "VSRegex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CD79D321D9EBAD0090793F /* Debug */,
+				93CD79D421D9EBAD0090793F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CD79DF21D9EBE10090793F /* Build configuration list for PBXNativeTarget "VSRegexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CD79E021D9EBE10090793F /* Debug */,
+				93CD79E121D9EBE10090793F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93CD79CF21D9EBAD0090793F /* Project object */;
+}
