@@ -2,27 +2,24 @@
 
 [ChinaMobilePhoneNumberRegex] wrappers for iOS and macOS in Swift.
 
-## Usage
+## Features
+- Pure-Swift interface
+- Well-documented
+- Extensively tested
+
+## Requirements
+
+- iOS 8.0+ / macOS X 10.9+ / tvOS 9.0+ / watchOS 2.0+
+- Xcode 9.0+
+- Swift 4.0+
+
+## Quick Start
 
 ```swift
-let regex = VSRegex() // Match all numbers by default.
-let isMatch = regex.matches("+8613800138000")
-print(isMatch) // true
+import VSRegex
 
-
-let regex = VSRegex(.carrier(.chinaTelecom))
-let isMatch = regex.matches("+8613800138000")
-print(isMatch) // false
-
-    
 let isMatch = VSRegex.matches("+8613800138000")
 print(isMatch) // true
-
-    
-let isMatch = VSRegex.is("+8613800138000", matches: .carrier(.chinaMobile))
-print(isMatch) // true
-
-...
 ```
 
 ## Installation
